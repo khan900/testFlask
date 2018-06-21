@@ -8,4 +8,4 @@ jobs:
       - run: 
           command: |
             python -m pip install --user -r requirements.txt
-            python test.py test
+            python test.py
