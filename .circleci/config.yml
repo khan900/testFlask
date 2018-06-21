@@ -7,4 +7,5 @@ jobs:
       - checkout
       - run: 
           command: |
+            pip install -r requirements.txt
             python test.py test
