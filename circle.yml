@@ -1,0 +1,11 @@
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: afternoon-woodland-23369
+
+
+
+test:
+  override:
+    - "true"
